@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 
-const printName = () => {
-  const name = readlineSync.question('Your answer: ');
-  return name;
+const ask = (question) => {
+  const answer = readlineSync.question(question);
+  return answer;
 };
-export default printName;
+export default ask;
