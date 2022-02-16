@@ -1,10 +1,18 @@
-name: lint
-on: push
+name: 'main'
+on:
+  push:
+    branches: [ main ]
 jobs:
-  my-job:
+  test-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step1
-        run: make install
-      - name: my-step2
-        run: male lint
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      name: 'setup node'
+      with:
+        node-version: '14.x'
+
+    - name: 'install'
+      run: make install
+    - name: 'eslint'
+      run: make lint
