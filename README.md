@@ -1,3 +1,5 @@
 ### Hexlet tests and linter status:
 [![hexlet-check](https://github.com/pavla36/frontend-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/pavla36/frontend-project-lvl1/actions/workflows/hexlet-check.yml)
 [![lint](https://github.com/pavla36/frontend-project-lvl1/actions/workflows/main.yml/badge.svg)](https://github.com/pavla36/frontend-project-lvl1/actions/workflows/main.yml)
+<!-- asciinema -->
+https://asciinema.org/a/Fn37A6G2RsjQjXyM80JnKutBc
