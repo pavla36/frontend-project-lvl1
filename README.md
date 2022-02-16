@@ -1,3 +1,3 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/pavla36/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/pavla36/frontend-project-lvl1/actions)
-![example workflow](https://github.com/pavla36/frontend-project-lvl1/actions/workflows/linter.yml/badge.svg)
+[![hexlet-check](https://github.com/pavla36/frontend-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/pavla36/frontend-project-lvl1/actions/workflows/hexlet-check.yml)
+[![lint](https://github.com/pavla36/frontend-project-lvl1/actions/workflows/main.yml/badge.svg)](https://github.com/pavla36/frontend-project-lvl1/actions/workflows/main.yml)
