@@ -3,3 +3,5 @@
 [![lint](https://github.com/pavla36/frontend-project-lvl1/actions/workflows/main.yml/badge.svg)](https://github.com/pavla36/frontend-project-lvl1/actions/workflows/main.yml)
 <!-- asciinema -->
 https://asciinema.org/a/Fn37A6G2RsjQjXyM80JnKutBc
+<!-- asciinema brain-calc-->
+https://asciinema.org/a/DICWYgwEL94zkFFJsA6wQm9pF
