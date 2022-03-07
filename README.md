@@ -5,3 +5,5 @@
 https://asciinema.org/a/Fn37A6G2RsjQjXyM80JnKutBc
 <!-- asciinema brain-calc-->
 https://asciinema.org/a/DICWYgwEL94zkFFJsA6wQm9pF
+<!-- asciinema brain-gcd-->
+https://asciinema.org/a/lKmSnSGSP8zWPXyLUOvglnu5K
