@@ -16,13 +16,13 @@ const questions = () => {
   while (i < 4) {
     const num = Math.round(Math.random() * (max - min + 1) + min);
     if (num % 2 === 0) {
-      answer = funcAnswer(num, yes, name);
-      if (answer !== yes) {
+      answer = funcAnswer(num, no, name);
+      if (answer !== no) {
         return;
       }
     } else {
-      answer = funcAnswer(num, no, name);
-      if (answer !== no) {
+      answer = funcAnswer(num, yes, name);
+      if (answer !== yes) {
         return;
       }
     }
