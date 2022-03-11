@@ -9,3 +9,5 @@ https://asciinema.org/a/DICWYgwEL94zkFFJsA6wQm9pF
 https://asciinema.org/a/lKmSnSGSP8zWPXyLUOvglnu5K
 <!-- asciinema brain-progression-->
 https://asciinema.org/a/64fCJ3zXHc2xtWKEqJpg0I4se
+<!-- asciinema brain-prime-->
+ https://asciinema.org/a/lKMOnzlgJP0o7TnfuLLqOTyhu
