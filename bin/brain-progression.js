@@ -33,17 +33,17 @@ const questions = () => {
     i += 1;
   }
   while (j < arrI.length) {
-    while (arr.length <= 10) {
-      if (arr.length === 10) {
-        random = arr[arrR[j]];
-        arr[arrR[j]] = '..';
-        answer = funcAnswer(arr.join(' '), String(random), name);
-        if (answer !== String(random)) {
-          return;
-        }
-      }
+    while (arr.length !== 10) {
       arr.push(arrI[j]);
       arrI[j] += arrD[j];
+    }
+    if (arr.length === 10) {
+      random = arr[arrR[j]];
+      arr[arrR[j]] = '..';
+      answer = funcAnswer(arr.join(' '), String(random), name);
+      if (answer !== String(random)) {
+        return;
+      }
     }
     arr.length = 0;
     j += 1;
