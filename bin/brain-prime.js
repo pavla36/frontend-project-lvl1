@@ -10,19 +10,28 @@ const questions = () => {
   const min = 1;
   const max = 100;
   let i = 0;
+  let j = 0;
   const yes = 'yes';
   const no = 'no';
   let answer = 0;
+  let check = 0;
   while (i < 4) {
     const num = Math.round(Math.random() * (max - min + 1) + min);
-    if (num % 2 === 0) {
-      answer = funcAnswer(num, no, name);
-      if (answer !== no) {
+    j = num;
+    while (j > 0) {
+      if (num % j === 0) {
+        check += 1;
+      }
+      j -= 1;
+    }
+    if (check === 2) {
+      answer = funcAnswer(num, yes, name);
+      if (answer !== yes) {
         return;
       }
     } else {
-      answer = funcAnswer(num, yes, name);
-      if (answer !== yes) {
+      answer = funcAnswer(num, no, name);
+      if (answer !== no) {
         return;
       }
     }
@@ -31,6 +40,7 @@ const questions = () => {
       console.log(`Congratulations, ${name}!`);
       return;
     }
+    check = 0;
   }
 };
 questions();
